@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>kiosko privacy</title><link rel="stylesheet" href="style.css"></head>
+<body><main>
+<p><a href="./">← kiosko</a></p>
+<h1>Privacy policy</h1>
+<p class="lead">Last updated 25 October 2026.</p>
+
+<p>kiosko is a personal macOS app used only by its author. It has no server, no accounts of its own, no analytics and no advertising.</p>
+
+<h2>Google user data kiosko accesses</h2>
+<p>With the owner's permission (OAuth scope <code>gmail.modify</code>), kiosko reads messages from a short list of known senders in one Gmail account: cinema newsletters and ticket confirmations. It never lists or reads mail outside those senders.</p>
+
+<h2>How the data is used</h2>
+<ul>
+<li>Messages are parsed on the Mac to extract films, sessions, talks and bookings, which are shown in the app.</li>
+<li>Newsletters that were fully understood may be moved to Gmail's Bin, and only after the owner turns that on. Ticket confirmations are never deleted or archived.</li>
+<li>Gmail data is not used for advertising, is not sold, and is not used to train any AI or machine-learning model.</li>
+</ul>
+
+<h2>Storage</h2>
+<p>Extracted information is stored locally on the Mac. The Google sign-in token is stored in the macOS Keychain. Nothing is uploaded to a server run by kiosko.</p>
+
+<h2>Sharing</h2>
+<p>Google user data is not shared with anyone. To show film details, kiosko looks up film titles on TMDB and public Letterboxd pages; those requests contain only a film title or id, never email content or email addresses.</p>
+
+<h2>Limited Use</h2>
+<p>kiosko's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Removing access and data</h2>
+<p>Access can be revoked at any time from <a href="https://myaccount.google.com/permissions">Google Account → Third-party connections</a>. Deleting the app's data folder on the Mac removes everything kiosko stored.</p>
+
+<h2>Contact</h2>
+<p>Questions: open an issue in the <a href="https://github.com/beatrizanso/kiosko-site/issues">kiosko-site repository</a>.</p>
+<footer>kiosko · a personal project</footer>
+</main></body></html>
